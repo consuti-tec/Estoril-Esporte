@@ -1,8 +1,8 @@
 {
   "expo": {
     "name": "Estoril Esportes",
-    "slug": "estorilesportes",
-    "version": "1.0.3",
+    "slug": "estorilesporte",
+    "version": "1.0.6",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -16,24 +16,23 @@
     },
     "updates": {
       "fallbackToCacheTimeout": 0,
-      "url": "https://u.expo.dev/ff112dc6-dc99-47e4-8579-d795bf9e68c8"
+      "url": "https://u.expo.dev/2f5a2db7-538e-4315-a26b-9a1f3a7ebbda"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "android": {
-      "versionCode": 3,
+      "versionCode": 6,
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
-        "backgroundColor": "#FC6405",
-        "backgroundImage": "./assets/icon.png"
+        "backgroundColor": "#FC6405"
       },
-      "package": "com.sporti.estorilesportes",
+      "package": "com.sporti.estorilesporte",
       "permissions": []
     },
     "ios": {
       "buildNumber": "3",
-      "bundleIdentifier": "com.sporti.estorilesportes",
+      "bundleIdentifier": "com.sporti.estorilesporte",
       "supportsTablet": true,
       "infoPlist": {
         "NSCameraUsageDescription": "This app uses the camera to collect the user's profile photo, which can be fictitious.",
@@ -41,6 +40,14 @@
       }
     },
     "entryPoint": "node_modules/expo/AppEntry.js",
-    "description": ""
+    "description": "",
+    "extra": {
+      "eas": {
+        "projectId": "2f5a2db7-538e-4315-a26b-9a1f3a7ebbda"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
   }
 }
